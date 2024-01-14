@@ -1,0 +1,16 @@
+version = 1
+
+[[analyzers]]
+name = "docker"
+
+  [analyzers.meta]
+  dockerfile_paths = ["docker-compose.yml"]
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "8"
+
+[[transformers]]
+name = "google-java-format"
