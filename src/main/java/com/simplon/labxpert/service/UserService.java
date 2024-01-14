@@ -1,4 +1,3 @@
 package com.simplon.labxpert.service;
 
-public interface UserService {
-}
+public interface UserService {}
